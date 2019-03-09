@@ -11,14 +11,43 @@
 header{
     height:600px;
     width:100%;
-    background-image:url("france.jpg");
+    background-image:url("coffee.jpg");
     background-size:cover;
     text-align:center;
     color: white;
-    font-family:'Cinzel Decorative', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 
 
 header p{
-    font-style: italic:
+    font-style: italic;
+}
+h2{
+    font-size: 80px;
+}
+h1{
+    font-size: 80px;
+}
+.aboutus {
+    text-align: center;
+}
+.aboutus i{
+    font-size:30px;
+    padding: 25px 20px;
+    
+    /*change the color*/
+    color: #fff;
+    background-color: #5cb85c;
+    
+    /*resize container of icon*/
+    width: 80px;
+    height: 80px;
+    
+    /*make the conatiner round*/
+    border-radius: 50%;
+}
+
+.abotus span{
+    width: 200px;
+    display: inline-block;
 }
